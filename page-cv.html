@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon porte folio</title>
+    <style>
+      body {
+        background: lightsalmon;
+      }
+      .img {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Mon porte folio</h1>
+    <!-- fichier realisation dans le meme dossier que page pour
+                        l'exemple de chemin et ouvert dans une nouvelle page-->
+    <hr />
+    <ol>
+      <u><h3>Raccourci vers les onglets:</h3></u>
+    </ol>
+    <ul>
+      <!--ouvert dans une nouvelle page-->
+      <li>
+        <a href="/exercie-html/réalisations.html" target="_blank"
+          >onglet réalisation:</a
+        >
+      </li>
+      <!-- fichier centre d'interêt dans le dossier parent précédent,
+         pour l'exemple de chemin diverses dans même fenêtre de navigation-->
+      <li>
+        <a href="/exercie-html/centres-d'interêt.html"
+          >onglet centre d'interêt:</a
+        >
+      </li>
+      <br />
+
+      <u><h3>Naviguer par thèmes dans la page:</h3></u>
+      <br />
+      <li>
+        <a href="#Experience">Mes expériences professionnelles:</a>
+      </li>
+      <li><a href="#education"> Mes diplômes:</a></li>
+      <li><a href="#skills"> Mes comptétences:</a></li>
+    </ul>
+    <br />
+    <section id="experience">
+      <u><h2 align="center">Mes expériences professionnelles:</h2></u>
+      <ul>
+        <br />
+        <br />
+        <!--../../codage/ressources/images/téléchargement.jpg-->
+
+        <img
+          class="img"
+          src="https://image.shutterstock.com/image-photo/cast-iron-pot-fresh-herbs-600w-1424680868.jpg"
+        />
+
+        <li>10 ans d'expériences en cuisine dans diverses restauration.</li>
+        <li>
+          J'ai également vu le coté service afin d'avoir une vue globale du
+          métier.
+        </li>
+        <li>
+          Je souhaite me reconvertir dans l'informatique car j'ai une passion
+          pour le multimédia.
+        </li>
+        <li>Je suis actuellement en formation web developpeur full stack.</li>
+      </ul>
+      <br />
+      <section id="education">
+        <u><h2 align="center">Mes diplômes:</h2></u>
+        <br />
+      </section>
+      <img class="img" src="../porte folio/liens/diploma-1390785-1280.png" />
+      <ul>
+        <li>CAP tailleur de pierre en alternance</li>
+        <li>CAP hôtellerie restauration (non achevé)</li>
+        <li>Formation en cuisine en autodidacte</li>
+        <li>
+          Actuellement en formation chez studi pour le certificat de web
+          developpeur full stack
+        </li>
+      </ul>
+    </section>
+    <br />
+    <section id="skills">
+      <u><h2 align="center">Mes Compétences:</h2></u>
+      <br /><!--j'arrive pas a mettre de photo en liens depuis mon DD-->
+      <a href="https://www.publicdomainpictures.net" title="un site de photo">
+        <img
+          class="img"
+          src="../porte folio/liens/graph.jpg"
+          alt="Une image cliquable"
+        />
+      </a>
+      <ul>
+        <li>Savoir d'apprendre</li>
+        <li>Bonne connaissance sur le HTML</li>
+        <li>Perfectionnaliste(malheureusement parfois)</li>
+        <li>
+          ...je commence seulement ma formation cela va arriver prochainement
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
