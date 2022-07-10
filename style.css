@@ -23,12 +23,19 @@ body {
     color: aliceblue;
     position: absolute;
     margin-left: 18%;
-    bottom: 60px;
+    bottom: 0px;
+}
+.fotoPerso {
+    border-radius: 10%;
+    opacity: 0.9;
+}
+@media screen and (max-width: 770px) {
+    .fotoPerso {
+        display: none;
+    }
 }
 .rowCompetences {
     margin: auto;
-}
-.competences {
 }
 .card {
     background-color: rgb(71, 71, 199) !important;
