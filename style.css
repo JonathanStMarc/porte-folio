@@ -4,7 +4,7 @@ body {
     color: aliceblue;
 }
 #myHeader {
-    background-image: url(/sources/photoDev.jpg);
+    background-image: url(sources/photoDev.jpg);
     opacity: 0.9;
     min-height: 100vh;
     background-position: center;
